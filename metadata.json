@@ -1,0 +1,6 @@
+{
+  "name": "Redbury Guesthouse Islamabad",
+  "description": "Redbury Guesthouse offers clean, comfortable, and peaceful accommodation in G-13/1 Islamabad, Pakistan. Book your stay today.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

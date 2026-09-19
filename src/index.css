@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #2D3748;
+    background-color: #FAFAF7;
+  }
+
+  h1, h2, h3, .font-serif-heading {
+    font-family: var(--font-serif);
+  }
+}
+
+.bg-redbury {
+  background-color: #8B1E2B;
+}
+
+.text-redbury {
+  color: #8B1E2B;
+}
+
+.border-redbury {
+  border-color: #8B1E2B;
+}
+
+.hover\:bg-redbury-dark:hover {
+  background-color: #6E1521;
+}
+
+.bg-redbury-subtle {
+  background-color: #FDF6F6;
+}
+
